@@ -1,38 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Z-APPXPERT® | Software Development for Expert Users</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Path Bridge Group | Secure AI & Modern Data Solutions</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background:#f5f7fa;
+            color:#1d1d1d;
+            line-height:1.6;
+        }
+
+        nav{
+            background:#0d1b2a;
+            padding:18px 40px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-right:25px;
+            font-weight:bold;
+            font-size:15px;
+        }
+
+        .hero{
+            background:white;
+            padding:80px 40px;
+        }
+
+        .hero-container{
+            max-width:1200px;
+            margin:auto;
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            gap:40px;
+        }
+
+        .hero-text{
+            flex:1;
+            min-width:320px;
+        }
+
+        .hero-text h1{
+            font-size:58px;
+            line-height:1.1;
+            margin-bottom:25px;
+            color:#0d1b2a;
+        }
+
+        .hero-text p{
+            font-size:22px;
+            color:#444;
+            margin-bottom:35px;
+            max-width:700px;
+        }
+
+        .hero-buttons a{
+            display:inline-block;
+            padding:14px 28px;
+            margin-right:15px;
+            margin-bottom:10px;
+            border-radius:6px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        .btn-primary{
+            background:#1b4d8c;
+            color:white;
+        }
+
+        .btn-secondary{
+            border:2px solid #1b4d8c;
+            color:#1b4d8c;
+            background:white;
+        }
+
+        .hero-image{
+            flex:1;
+            min-width:320px;
+            text-align:center;
+        }
+
+        .hero-image img{
+            width:100%;
+            max-width:600px;
+            border-radius:12px;
+        }
+
+        .trust-section{
+            background:#eef3f8;
+            padding:60px 40px;
+        }
+
+        .trust-container{
+            max-width:1200px;
+            margin:auto;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:25px;
+        }
+
+        .trust-card{
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .trust-card h3{
+            color:#0d1b2a;
+            margin-bottom:10px;
+        }
+
+        .services{
+            padding:80px 40px;
+            background:white;
+        }
+
+        .section-container{
+            max-width:1200px;
+            margin:auto;
+        }
+
+        .section-title{
+            font-size:42px;
+            margin-bottom:20px;
+            color:#0d1b2a;
+        }
+
+        .services-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+            margin-top:40px;
+        }
+
+        .service-card{
+            background:#f5f7fa;
+            padding:30px;
+            border-radius:10px;
+        }
+
+        .service-card h3{
+            margin-bottom:15px;
+            color:#1b4d8c;
+        }
+
+        .about{
+            background:#eef3f8;
+            padding:80px 40px;
+        }
+
+        .about p{
+            max-width:900px;
+            font-size:20px;
+        }
+
+        footer{
+            background:#0d1b2a;
+            color:white;
+            padding:40px;
+            text-align:center;
+        }
+
+        footer a{
+            color:#8fc8ff;
+            text-decoration:none;
+        }
+
+        @media(max-width:768px){
+
+            .hero-text h1{
+                font-size:42px;
+            }
+
+            .hero-text p{
+                font-size:18px;
+            }
+
+        }
+
+    </style>
+
 </head>
-<body style="font-family: Arial, sans-serif; background:#f4f6f8; margin:0; padding:0;">
 
-  <div style="max-width:900px; margin:40px auto; background:#ffffff; padding:40px; border-radius:8px;">
-    
-    <img src="Mark5RegisteredTrademark.png"
-     alt="Z-APPXPERT® Registered Trademark"
-     style="max-width:100%; height:auto; margin-bottom:20px;">
+<body>
 
-    <h1>Z-APPXPERT®</h1>
-    <h2>Software Development for Expert Users</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="z-appxpert.html">Z-AppXpert®</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <p>
-      Z-APPXPERT® provides professional computer software design and
-      development services, including custom application development,
-      data engineering solutions, and technical consulting for advanced
-      users and organizations.
-    </p>
+    <section class="hero">
 
-    <p>
-      Services are offered under the Z-APPXPERT® brand by Path Bridge Group.
-    </p>
+        <div class="hero-container">
 
-    <p>
-      <strong>Contact:</strong><br>
-      <a href="mailto:EdwardZielinski10@gmail.com">EdwardZielinski10@gmail.com</a>
-    </p>
+            <div class="hero-text">
 
-  </div>
+                <h1>
+                    Bridging Legacy Systems, AI,
+                    and Modern Data Solutions
+                </h1>
+
+                <p>
+                    Path Bridge Group helps organizations modernize platforms,
+                    integrate AI-driven workflows, and transform complex data
+                    into scalable business solutions designed for secure and
+                    regulated environments.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#services" class="btn-primary">
+                        Explore Services
+                    </a>
+
+                    <a href="#contact" class="btn-secondary">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <!-- Replace image name with your actual image -->
+                <img src="images/bridge-image.png"
+                     alt="Bridge representing secure modernization">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="trust-section">
+
+        <div class="trust-container">
+
+            <div class="trust-card">
+                <h3>Secure by Design</h3>
+                <p>
+                    Solutions designed with security, governance,
+                    and operational control in mind.
+                </p>
+            </div>
+
+            <div class="trust-card">
+                <h3>Built for Regulated Environments</h3>
+                <p>
+                    Designed for organizations operating within
+                    complex compliance and data governance ecosystems.
+                </p>
+            </div>
+
+            <div class="trust-card">
+                <h3>Enterprise Modernization</h3>
+                <p>
+                    Bridging legacy infrastructure with modern
+                    AI and intelligent workflow systems.
+                </p>
+            </div>
+
+            <div class="trust-card">
+                <h3>Trusted Integration</h3>
+                <p>
+                    Practical modernization strategies focused
+                    on scalability, stability, and long-term value.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+
+        <div class="section-container">
+
+            <h2 class="section-title">
+                Services
+            </h2>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <h3>Legacy System Modernization</h3>
+                    <p>
+                        Modernizing aging platforms and workflows
+                        while preserving operational continuity.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Secure AI Integration</h3>
+                    <p>
+                        Practical AI integration strategies for
+                        controlled and enterprise environments.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Data Engineering</h3>
+                    <p>
+                        Scalable data pipelines, intelligent workflows,
+                        and enterprise data transformation solutions.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Workflow Automation</h3>
+                    <p>
+                        Streamlining operational processes using
+                        modern automation and integration approaches.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="section-container">
+
+            <h2 class="section-title">
+                About Path Bridge Group
+            </h2>
+
+            <p>
+                Path Bridge Group focuses on bridging legacy systems,
+                secure AI modernization, and enterprise data solutions.
+                The organization combines practical engineering experience,
+                software modernization, intelligent workflow integration,
+                and secure architectural thinking to help organizations
+                navigate modern technology transformation.
+            </p>
+
+            <p>
+                Services are also offered under the
+                <strong>Z-AppXpert®</strong> brand for software engineering,
+                technical consulting, and advanced development solutions.
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer id="contact">
+
+        <h3>Contact</h3>
+
+        <p>
+            Email:
+            <a href="mailto:EdwardZielinski10@gmail.com">
+                EdwardZielinski10@gmail.com
+            </a>
+        </p>
+
+        <p>
+            © 2026 Path Bridge Group
+        </p>
+
+    </footer>
 
 </body>
 </html>
