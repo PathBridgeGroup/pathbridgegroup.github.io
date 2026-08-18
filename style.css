@@ -107,7 +107,7 @@ nav a {
     background: white;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .trust-card h3 {
@@ -188,6 +188,64 @@ nav a {
     color: #1b4d8c;
 }
 
+.how-we-work {
+    background: #eef3f8;
+    padding: 80px 40px;
+}
+
+.approach-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.approach-card {
+    position: relative;
+    padding-top: 20px;
+    border-top: 3px solid #1b4d8c;
+}
+
+.step-number {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1b4d8c;
+    margin-bottom: 12px;
+}
+
+.approach-card h3 {
+    color: #0d1b2a;
+    font-size: 24px;
+    margin: 0 0 12px;
+}
+
+.approach-card p {
+    margin: 0;
+}
+
+.cta {
+    background: white;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.cta-container {
+    max-width: 850px;
+}
+
+.cta h2 {
+    font-size: 42px;
+    color: #0d1b2a;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
 footer {
     background: #0d1b2a;
     color: white;
@@ -201,6 +259,7 @@ footer a {
 }
 
 @media (max-width: 768px) {
+
     nav {
         padding: 16px 20px;
     }
@@ -231,8 +290,21 @@ footer a {
     .trust-section,
     .services,
     .about,
-    .education {
+    .education,
+    .how-we-work {
         padding: 50px 24px;
+    }
+
+    .cta {
+        padding: 50px 24px;
+    }
+
+    .cta h2 {
+        font-size: 34px;
+    }
+
+    .cta p {
+        font-size: 18px;
     }
 
     .section-title {
@@ -241,72 +313,67 @@ footer a {
 
     .about p {
         font-size: 18px;
-        }
-        
+    }
+
     .page-main {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 80px 24px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 80px 24px;
     }
 
     .page-hero {
-    padding: 80px 0 60px;
-    }
-
-    .page-hero h1 {
-    font-size: 48px;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    }
-
-    .page-hero p {
-    max-width: 720px;
-    font-size: 20px;
-    line-height: 1.6;
-    margin-bottom: 32px;
-    }
-
-    .section {
-    margin: 70px 0;
-    }
-
-    .cards {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 24px;
-    margin: 40px 0;
-    }
-
-    .card {
-    background: #f7f8fa;
-    padding: 32px;
-    border-radius: 14px;
-    }
-
-    .card h3 {
-    margin-top: 0;
-    }
-
-    @media (max-width: 768px) {
-    .cards {
-        grid-template-columns: 1fr;
+        padding: 80px 0 60px;
     }
 
     .page-hero h1 {
         font-size: 36px;
+        line-height: 1.1;
+        margin-bottom: 20px;
     }
+
+    .page-hero p {
+        max-width: 720px;
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 32px;
+    }
+
+    .section {
+        margin: 70px 0;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin: 40px 0;
+    }
+
+    .card {
+        background: #f7f8fa;
+        padding: 32px;
+        border-radius: 14px;
+    }
+
+    .card h3 {
+        margin-top: 0;
+    }
+
+    .approach-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 }
 
 .page-main .section,
 .page-main .cta {
-max-width: 900px;
-margin-left: auto;
-margin-right: auto;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page-main .cards {
-max-width: 900px;
-margin-left: auto;
-margin-right: auto;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
